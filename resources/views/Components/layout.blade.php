@@ -23,13 +23,13 @@
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                            <img class="h-8 w-8" src="https://stickermaker.s3.eu-west-1.amazonaws.com/storage/uploads/sticker-pack/shitpost-2-2/sticker_2.png?cb8036dd48550e8bafc6963c59a8e79a&d=200x200" alt="Your Company">
                         </div>
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
                                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                                 <x-nav-link href="/" :active="request()->is('/')" >Home</x-nav-link>
-                                <x-nav-link href="/about" :active="request()->is('about')" >About</x-nav-link>
+                                <x-nav-link href="/jobs" :active="request()->is('jobs')" >Jobs</x-nav-link>
                                 <x-nav-link href="/contact" :active="request()->is('contact')" >Contact</x-nav-link>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                                     <button type="button" class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                         <span class="absolute -inset-1.5"></span>
                                         <span class="sr-only">Open user menu</span>
-                                        <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="h-8 w-8 rounded-full" src="https://i.pinimg.com/originals/b9/02/3c/b9023c5080e2261a9657207836dd3444.jpg" alt="">
                                     </button>
                                 </div>
 
